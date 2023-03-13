@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-// set the view engine to Pug
-app.set('view engine', 'pug');
+// set the view engine to ejs
+app.set('view engine', 'ejs');
 
 // serve static files
 app.use(express.static('public'));
